@@ -1,0 +1,9 @@
+/* Menebalkan teks di header tabel */
+.table thead th {
+    font-weight: bold;
+}
+
+/* Menebalkan teks di badan tabel */
+.table tbody td {
+    font-weight: bold;
+}

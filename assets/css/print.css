@@ -1,0 +1,75 @@
+/* print.css */
+
+/* Tata letak tabel untuk cetak */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media print {
+    /* Sembunyikan sidebar dan footer yang tidak diperlukan */
+    #sidebar, .sticky-footer {
+        display: none !important;
+    }
+
+    /* Ganti warna background menjadi putih untuk konten yang akan dicetak */
+    body {
+        background-color: #ffffff;
+    }
+
+    /* Atur lebar maksimum konten agar tidak terlalu lebar */
+    .container-fluid {
+        max-width: 100%;
+    }
+
+    /* Sembunyikan tombol print pada saat mencetak */
+    .btn-print {
+        display: none;
+    }
+
+    /* Tampilan tabel yang akan dicetak */
+    .table-responsive {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    /* Atur tampilan tabel yang akan dicetak */
+    table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        border-collapse: collapse;
+    }
+
+    /* Gaya header tabel */
+    table th {
+        background-color: #f8f9fc;
+        color: #6c757d;
+        border-color: #dee2e6;
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+
+    /* Gaya sel tabel */
+    table td {
+        border: 1px solid #dee2e6;
+        padding: 0.75rem;
+        vertical-align: top;
+    }
+}
+
+
+
+

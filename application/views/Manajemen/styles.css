@@ -1,0 +1,150 @@
+/* Container styling */
+.container {
+    margin-top: 20px;
+}
+
+/* Heading styling */
+.container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn-primary {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-success {
+    margin-right: 5px;
+}
+
+.btn-danger {
+    margin-right: 5px;
+}
+
+/* Table styling */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.close {
+    color: white;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    /* Styling untuk section header */
+.header-section {
+    margin-bottom: 20px; /* Jarak di bawah section header sebelum tabel */
+}
+
+/* Styling untuk heading h2 dalam header-section */
+.header-section h2 {
+    margin-top: 0; /* Menghilangkan margin default di atas h2 */
+    margin-bottom: 10px; /* Jarak antara h2 dan tombol */
+}
+
+/* Styling untuk tombol Tambah Karyawan */
+.header-section .btn-primary {
+    margin-bottom: 0; /* Menghilangkan margin di bawah tombol jika tidak diperlukan */
+}
+
+}
